@@ -1,0 +1,197 @@
+.norway-guide-section {
+  padding: 30px 20px;
+}
+
+.norway-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.guide-card {
+  flex: 1;
+  max-width: 430px;
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+p, h3 {
+    text-align: left;
+}
+
+.guide-image {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.guide-subtext {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.guide-title {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.guide-country {
+  color: gray;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.guide-right-text {
+  flex: 1;
+  min-width: 220px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.5;
+}
+
+/*  Responsive Adjustments */
+/* @media (max-width: 768px) {
+  .norway-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .guide-card, .guide-right-text {
+    width: 100%;
+  }
+
+  .guide-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guide-image {
+    height: 160px;
+  }
+
+  .guide-title {
+    font-size: 16px;
+  }
+
+  .guide-right-text {
+    font-size: 14px;
+  }
+} */
+
+.guide-right-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.guide-right-subheading {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 14px;
+}
+
+.guide-icons {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  color: teal;
+  margin-bottom: 14px;
+}
+.content {
+    line-height: 1.8;
+    margin-right: 110px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 18px;
+}
+
+.guide-right-para {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.guide-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.guide-btn {
+  background: white;
+  width: 110px;
+  font-weight: 550;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  transition: background 0.3s ease;
+}
+
+.guide-btn:hover {
+  background: #006666;
+}
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+    .content{
+        margin-right: 60px;
+        font-size: 16px;
+    }
+  .norway-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .guide-card,
+  .guide-right-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .guide-image {
+    height: 200px;
+  }
+  .guide-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+    .content{
+        margin-right: 50px;
+        font-size: 18px;
+    }
+  .guide-image {
+    height: 180px;
+  }
+
+  .guide-title {
+    font-size: 16px;
+  }
+
+  .guide-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+}
